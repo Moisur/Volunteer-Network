@@ -1,0 +1,14 @@
+:root{
+    --primary:rgba(255, 255, 255, 0.918);
+    --Secondary:rgba(248, 248, 248, 0.884);
+}
+  .containers{
+    width: 100%;
+    min-height: 60vh;
+    background:linear-gradient(var(--primary),var(--Secondary)),
+    url('../../logos/family.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+  }
